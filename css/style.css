@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 86%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: aqua;
+  padding: 10px;
+}
+.header .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header .container .input {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header .container .input input {
+  width: 30%;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+}
+.header .container button {
+  padding: 8px 16px;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+.header .container button:hover {
+  background-color: blue;
+  color: white;
+}
+.header .container button:focus {
+  background-color: blue;
+  color: white;
+}
+
+.cards {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards .card {
+  width: 23%;
+  padding: 10px;
+  text-align: center;
+}
+.cards .card img {
+  width: 100%;
+}
+.cards .card a {
+  cursor: pointer;
+  font-size: 20px;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
